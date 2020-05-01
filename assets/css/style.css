@@ -12,10 +12,10 @@ body {
 }
         /* Game Title */
 header {
+    width: auto;
     background-color: orangered;
     margin-right: 70%;
     margin-left: 5%;
-    
 }
 h1 {
     color: rgb(247, 235, 235);
@@ -38,14 +38,32 @@ section {
 
         /* Points to Reach */
 .pointswincounters {
-    ;
-
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-#pointstoreach {
-    
+.points {
+    width: 27.35%;
+    height: 120px;
+    margin: 10px;
+    background-color: rgb(21, 110, 21);
+    font-weight: bold;
 }
         /* Wins and Losses */
-
+#winnerloser {
+    width: 9.55%;
+    height: 120px;
+    margin: 10px;
+    color: rgb(19, 5, 216);
+    background-color: rgb(71, 143, 236);
+    
+}
         /* Crystal Images */
-
+img {
+    margin: 4px;
+}
+img:hover {
+    border: 5px solid rgba(73, 12, 2, 0.692);
+}
         /* Total Score */
