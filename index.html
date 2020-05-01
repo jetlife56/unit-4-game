@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Unit 4 Game!</title>
+                        <!--Bootstrap File-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+                        <!--Css file-->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+                        <!--Jquery file-->
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <header>
+        <h1>Crystals Collector!</h1>
+        </header>
+        <section>
+                        <!--Game rules for Player-->
+            <p class="rulesofgame">Your will be given a random number at the start of the game.</p>
+            <br>
+            <p class="rulesofgame">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <br>
+            <p class="rulesofgame">You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <br>
+            <p class="rulesofgame">The value of each crystal is hidden from you until you click on it.</p>
+            <br>
+            <p class="rulesofgame">Each time when the game starts, the game will change the values each crystal.</p>
+        </section>
+                        <!--Target Points to reach-->
+        <div class="pointstoreach">
+            <p></p>
+        </div>
+        <div id="winnerloser">
+            <p class="winorlose" id="wins">Wins:</p>
+            <p class="winorlose" id="losses">Losses:</p>
+        </div>
+        <div>
+                        <!--Crystal Choices-->
+            <img src="assets/images/ruby-gem.png" height="150px" width="150px" alt="Ruby Gem">
+            <img src="assets/images/topaz-gem.jpg" height="150px" width="150px" alt="Topaz Gem">
+            <img src="assets/images/memorial-gem.jpg" height="150px" width="150px" alt="Memorial Gem">
+            <img src="assets/images/emerald-gem.jpg" height="150px" width="150px" alt="Emerald Gem">
+        </div>
+                        <!--Player total score-->
+        <div>
+            <h4 id="totalscore">Your total score is:</h4>
+        </div>
+        <div>
+            <p></p>
+        </div>
+                        <!--Javascript and Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="assests/javascript/game.js"></script>
+    </body>
+</html>
