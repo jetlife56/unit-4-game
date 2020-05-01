@@ -1,10 +1,51 @@
-body {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
+ }
+        /*Content */
+body {
+    margin-left: 5%;
     font-family: sans-serif;
+    background-image: url(../images/Background.jpg);
+}
+        /* Game Title */
+header {
+    background-color: orangered;
+    margin-right: 70%;
+    margin-left: 5%;
+    
+}
+h1 {
+    color: rgb(247, 235, 235);
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+        /* Rules of Game */
+section {
+    width: 50%;
+    padding: 15px 7px 65px 7px;
+    margin-top: 5%;
+    background-color: rgb(231, 227, 225);
+}
+.rulesofgame {
+    color: rgb(16, 121, 16);
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.wins{
-    color: blue;
+        /* Points to Reach */
+.pointswincounters {
+    ;
+
 }
+#pointstoreach {
+    
+}
+        /* Wins and Losses */
+
+        /* Crystal Images */
+
+        /* Total Score */
