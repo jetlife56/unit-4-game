@@ -25,7 +25,7 @@ h1 {
 }
         /* Rules of Game */
 section {
-    width: 50%;
+    width: 40%;
     padding: 15px 7px 65px 7px;
     margin-top: 5%;
     background-color: rgb(231, 227, 225);
@@ -67,3 +67,12 @@ img:hover {
     border: 5px solid rgba(73, 12, 2, 0.692);
 }
         /* Total Score */
+#totalscore {
+    width: 30%;
+    color: rgb(230, 230, 235);
+    background-color: rgb(37, 37, 199);
+}
+#totalplayerscore {
+    color: rgb(224, 221, 206);
+    background-color: rgb(46, 46, 173);
+}

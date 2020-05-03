@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <meta charset="utf-8">
         <title>Unit 4 Game!</title>
                         <!-- Bootstrap File -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
                         <!-- Css file -->
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-                        <!-- Jquery file -->
+                        <!-- Jquery CDN -->
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     </head>
     <body class="container-fluid">
@@ -15,15 +16,15 @@
         </header>
         <section>
                         <!-- Game rules for Player -->
-            <p class="rulesofgame">Your will be given a random number at the start of the game.</p>
-            <br>
-            <p class="rulesofgame">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-            <br>
-            <p class="rulesofgame">You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-            <br>
-            <p class="rulesofgame">The value of each crystal is hidden from you until you click on it.</p>
-            <br>
-            <p class="rulesofgame">Each time when the game starts, the game will change the values each crystal.</p>
+            <p class="rulesofgame">Your will be given a random number at the start of the game.
+            <br><br>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            <br><br>
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            <br><br>
+            The value of each crystal is hidden from you until you click on it.
+            <br><br>
+            Each time when the game starts, the game will change the values each crystal.</p>
         </section>
                         <!-- Target Points to reach -->
         <div class="pointswincounters">
@@ -38,10 +39,10 @@
         </div>
         <div>
                         <!-- Crystal Choices -->
-            <img src="assets/images/ruby-gem.png" height="120px" width="120px" alt="Ruby Gem">
-            <img src="assets/images/topaz-gem.jpg" height="120px" width="120px" alt="Topaz Gem">
-            <img src="assets/images/memorial-gem.jpg" height="120px" width="120px" alt="Memorial Gem">
-            <img src="assets/images/emerald-gem.jpg" height="120px" width="120px" alt="Emerald Gem">
+            <img src="assets/images/ruby-gem.png" height="120px" width="120px" alt="Ruby Gem" id="ruby">
+            <img src="assets/images/topaz-gem.jpg" height="120px" width="120px" alt="Topaz Gem" id="topaz">
+            <img src="assets/images/memorial-gem.jpg" height="120px" width="120px" alt="Memorial Gem" id="memorial">
+            <img src="assets/images/emerald-gem.jpg" height="120px" width="120px" alt="Emerald Gem" id="emerald">
         </div>
                         <!-- Player total score -->
         <div>
@@ -54,6 +55,6 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <script src="assests/javascript/game.js"></script>
+        <script src="assets/javascript/game.js"></script>
     </body>
 </html>
